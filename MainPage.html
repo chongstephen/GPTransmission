@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="project.css">
+    
+    <title>GP Transmission</title>
+</head>
+<body>
+        <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+            <a href="MainPage.html" class="navbar-brand">GP1</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navLinks">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="AboutPage.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="Services.html" class="nav-link">Services</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="ContactUs.html" class="nav-link">Contact Us</a>
+                  </li>
+                </ul>
+            </div>
+        </nav>
+
+       
+
+   
+<div class="container">
+    <div id="header-carousel">
+        <div id="HeaderCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+               <h1>WE FIX TRANSMISSIONS!</h1>
+              </div>
+              <div class="carousel-item">
+                <h1>TELL US YOUR PROBLEMS!</h1>
+              </div>
+              <div class="carousel-item">
+                <h1>VISIT US NOW!</h1>
+              </div>
+            </div>
+          </div>
+    </div>
+
+
+    <form class="userform" name="GP Transmission" method="post" auto-complete="off">
+
+        <div class="row">
+            <div class="form-group col-xs-12 col-sm-6">
+                <label for="firstName">First Name</label>
+                <input class="form-control" id="firstName" type="text" name="firstName" placeholder="First Name" required />
+            </div>
+            <div class="form-group col-xs-12 col-sm-6">
+                <label for="lastName">Last Name</label>
+                <input class="form-control" id="lastName" type="text" name="lastName" placeholder="Last Name" required />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="form-group col-xs-12 col-sm-6">
+                <label for="phone">Phone:</label>
+                <input class="form-control" id="phone" type="tel" name="telephone" placeholder="(XXX) XXX-XXXX" required />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="form-group col-xs-12 col-sm-6">
+                <label for="car-make">Make:</label>
+                <select name="car-make" id="car-make" name="make">
+                    <option value="Audi">Audi</option>
+                    <option value="BMW">BMW</option>
+                    <option value="Honda">Honda</option>
+                    <option value="Toyota">Toyota</option>
+                  </select>
+            
+
+            
+                <label for="car-year">Year:</label>
+                <select name="car-year" id="car-year" name="year">
+                    <option value="#">1</option>
+                    <option value="#">2</option>
+                    <option value="#">3</option>
+                    <option value="#">4</option>
+                  </select>
+            
+
+            
+                <label for="car-model">Model:</label>
+                <select name="car-model" id="car-model" name="model">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+            
+            </div>
+        </div>
+
+       
+       
+        
+        <div class="row">
+            <div class="form-group col-xs-12 col-sm-6">
+                <label for="appointment">Appointment</label>
+                <input type="date" id="appointmentDate" name="appointmentDate" class="form-control" />
+            </div>
+            <div class="form-group col-xs-12 col-sm-6">
+                <label for="appointment">Time</label>
+                <input type="time" id="appointmentTime" name="appointmentTime" class="form-control" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-xs-12 col-sm-12">
+                <textarea name="description" id="description" cols="50" rows="5" placeholder="Do we need to know anything else about your car?" class="form-control"></textarea>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-xs-12  col-sm-3 col-md-6 col-lg-3">
+                <button id="submit-form" type="submit" class="btn btn-primary">Submit</button>
+            </div> 
+        </div>
+
+    </form>
+ 
+</div> 
+
+
+
+    
+    
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
+    
+        <script>
+          
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxCCWIStt8wdrnJ0fc5mnuseT8cldyZ7mi5hjb06hAmO_wcYfY-75SwKQ/exec'
+        const form = document.forms['google-sheet']
+
+        form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+            .catch(error => console.error('Error!', error.message))
+        })
+
+            $(function () {
+                $(document).scroll(function(){
+                    var $nav= $("#mainNavbar");
+                    $nav.toggleClass("scrolled", $(this).scrollTop() >$nav.height());
+                });
+            });
+        </script>
+</body>
+</html>

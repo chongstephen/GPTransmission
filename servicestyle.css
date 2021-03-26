@@ -1,0 +1,99 @@
+body{
+    margin: 0px;
+    background-color: #fff
+    padding: 50px;
+}
+
+
+.content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#mainNavbar .navbar-brand{
+    color: #EA1C2C;
+}
+
+#mainNavbar .nav-link{
+    color: black;
+}
+
+#mainNavbar .nav-link:hover{
+    color: #EA1C2C;
+}
+
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#headingGroup span{
+    color: #EA1C2C
+}
+
+#headingGroup h1{
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled{
+    background: rgb(27, 27, 27);
+    transition: background 500ms;
+}
+
+
+
+/* #c1,#c2,#c3{
+    width: 33%;
+} */
+
+/* @media (min-width: 40em){
+    .split{
+        flex-direction: row;
+    }
+
+    .split > * {
+        flex-basis: 100%;
+    }
+} */
+
+h1{
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+
+}
+
+.card{
+    color: black;
+    display: flex;
+    border: none;
+}
+
+/* Section 1 */
+#car_market{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 600;
+    background-color: rgba(216, 214, 214, 0.89);
+    border: solid rgba(182, 181, 181, 0.767) 10px;
+}
+
+.card,.list-group-item,.card-body{
+    background-color: rgba(216, 214, 214, 0.89);
+    
+}
+
+/* Section 2 */
+#service_market{
+    columns: 3;
+    column-rule-width: 1px;
+}
+
+
+/* Section 3 */
+#transmission_market{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 600;
+}

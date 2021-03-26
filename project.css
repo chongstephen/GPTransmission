@@ -1,0 +1,79 @@
+body{
+    
+    background-color: #554f4f;
+    color: whitesmoke;
+    padding: 50px;
+}
+
+
+.content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#mainNavbar .navbar-brand{
+    color: #EA1C2C;
+}
+
+#mainNavbar .nav-link{
+    color: white;
+}
+
+#mainNavbar .nav-link:hover{
+    color: #EA1C2C;
+}
+
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#headingGroup span{
+    color: #EA1C2C
+}
+
+#headingGroup h1{
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled{
+    background: rgb(27, 27, 27);
+    transition: background 500ms;
+}
+
+
+.jumbotron{
+        min-width: 585px;
+        min-height: 100px;
+        margin: 10px auto;
+        display: flex;
+        justify-content: center;
+        margin: 10px 10px 10px 10px;
+        border: 0.08em solid black;
+}
+
+form.userform{
+    width:50%;
+    margin:auto;
+    padding:20px;
+    border: 1px solid white;
+    border-radius:4px;
+    background-color: rgba(37, 37, 37, 0.8);
+}
+
+#header-carousel{
+    margin-bottom:30px;
+    text-align: center;
+    background-color:black;
+    border:5px solid red;
+    padding:20px;
+    border-radius: 5px;
+    animation:blink 1s linear infinite;
+}
+
+@keyframes blink{
+   50%{
+       border:5px solid blue;
+   }
+}

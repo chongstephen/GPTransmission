@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="aboutstyle.css">
+    <title>GP Transmission</title>
+</head>
+<body>
+        <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+            <a href="MainPage.html" class="navbar-brand">GP1</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navLinks">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="AboutPage.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="Services.html" class="nav-link">Services</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="ContactUs.html" class="nav-link">Contact Us</a>
+                  </li>
+                </ul>
+            </div>
+        </nav>
+
+       
+<section class="about">
+    <h1>Mission</h1>
+    <p>GP Transmission is a family owned business that treats you like family. 
+        Giving you that uncle Jerry special at a friendly fair price. 
+        People come in asking for custom fixes and modifications to their cars and with a can do attitude, 
+        the employees of GP Transmission aim to give the best customer service experience possible.</p>
+   
+    <p> We take our responsibility to our clients seriously. 
+        We are focused. At the same time, we have a great time getting the job done. 
+        Sometimes our office is so quiet you can hear a pin drop; while at other times, 
+        every marketing services team member has a client on the phone and there are beach balls flying across the garage.
+    We take great pride in our team-building skills. 
+    We carefully select and screen each new team member for their individual talents and their fit with our company culture. 
+    Although not a requirement, skills with a Nerf gun are considered a valuable asset.
+    </p>
+</section>
+ 
+
+
+
+    
+    
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
+    
+        <script>
+            $(function () {
+                $(document).scroll(function(){
+                    var $nav= $("#mainNavbar");
+                    $nav.toggleClass("scrolled", $(this).scrollTop() >$nav.height());
+                });
+            });
+        </script>
+</body>
+</html>
